@@ -1,1 +1,51 @@
 # aldi-fahluzi-muharam-betest
+
+hosted url: https://62240-3000.2.codesphere.com
+
+## Cara Menjalankan Server
+
+### 1. Clone Repository
+
+Clone repositori ini ke mesin lokal Anda menggunakan perintah berikut:
+
+```bash
+git clone https://github.com/username/aldi-fahluzi-muharam-betest.git
+```
+
+### 2. Install Library
+
+```bash
+cd aldi-fahluzi-muharam-betest
+npm install
+```
+
+### 3. Setup Environment
+
+Buat file `.env` di root proyek Anda dan tambahkan variabel lingkungan berikut:
+
+```
+MONGO_PWD=your_mongo_password
+JWT_SCRT=your_jwt_secret
+```
+
+### 4. Start Server
+
+Untuk menjalankan server, gunakan perintah berikut:
+
+```bash
+npm run dev
+```
+
+Server akan berjalan pada mode developer di `http://localhost:8000`.
+
+```bash
+npm run build
+```
+
+Untuk build server menjadi bentuk JS
+
+```bash
+npm run start
+```
+
+Server akan berjalan pada mode production di `http://localhost:8000`.
