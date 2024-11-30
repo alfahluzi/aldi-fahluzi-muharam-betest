@@ -30,22 +30,16 @@ JWT_SCRT=your_jwt_secret
 
 ### 4. Start Server
 
-Untuk menjalankan server, gunakan perintah berikut:
+#### Untuk menjalankan server pada development, gunakan perintah berikut:
 
 ```bash
 npm run dev
 ```
-
-Server akan berjalan pada mode developer di `http://localhost:8000`.
-
+#### Untuk build server menjadi bentuk JS
 ```bash
 npm run build
 ```
-
-Untuk build server menjadi bentuk JS
-
+#### Untuk menjalankan server pada production, gunakan perintah berikut:
 ```bash
 npm run start
 ```
-
-Server akan berjalan pada mode production di `http://localhost:8000`.
