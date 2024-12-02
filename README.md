@@ -1,7 +1,19 @@
 # aldi-fahluzi-muharam-betest
 
 hosted url: https://62240-3000.2.codesphere.com
-
+api url: 
+  1. [post] /api/user
+  2. [get] /api/account/:accountNumber
+  3. [get] /api/identity/:identitiyNumber
+  4. [post] /api/auth/token
+```
+userdata:{
+    userName: string;
+    accountNumber: number;
+    emailAddress: string;
+    identityNumber: number;
+}
+```
 ## Cara Menjalankan Server
 
 ### 1. Clone Repository
